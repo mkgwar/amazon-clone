@@ -1,0 +1,97 @@
+.navbar {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  font-size: 0.75rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+
+  &__searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__searchBar {
+    width: 1100px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0.4rem;
+
+    &:focus {
+      outline: 2px solid #ff9900;
+    }
+  }
+
+  &__searchButton {
+    padding: 0.5rem 0.6rem;
+    border: none;
+    background-color: #ffb03a;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+
+    &:hover {
+      background-color: #ff9900;
+    }
+  }
+
+  &__logo {
+    font-size: 1rem;
+    padding: 0.2rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+
+  &__option {
+    padding: 0.2rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #fff;
+    }
+    &--bold {
+      display: block;
+      font-weight: 700;
+    }
+  }
+
+  &__cart {
+    position: relative;
+
+    .fa-shopping-cart {
+      font-size: 1rem;
+    }
+  }
+
+  &__cartCount {
+    font-weight: 700;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff9900;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    color: #000;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__option--address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

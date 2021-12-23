@@ -1,0 +1,35 @@
+.menu {
+  background-color: rgb(15, 17, 48);
+  font-size: 0.75rem;
+  color: #fff;
+  display: flex;
+  align-items: start;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+
+  &__item {
+    padding: 0.2rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+
+  &__hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-weight: 700;
+    gap: 0.2rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+}

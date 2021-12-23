@@ -1,0 +1,32 @@
+{
+  "0": {
+    "title": "Bill payments got fast & convenient",
+    "cap": "Prepaid Recharge",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/HFC_21/Avatar_QC_PC/Recharge_186x116._SY116_CB663599035_.jpg"
+  },
+  "1": {
+    "title": "Top picks for your home",
+    "cap": "Refrigerators",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+  },
+  "2": {
+    "title": "Upgrade your home | Amazon Brands & more",
+    "cap": "Smart LED TVs",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/week27gw/xcm_banners_tvs_186x116-product-badge-4qqt8_186x116_in-en._SY116_CB663888093_.jpg"
+  },
+  "3": {
+    "title": "Revamp your home in style",
+    "cap": "Lighting solutions",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg"
+  },
+  "4": {
+    "title": "Shop by Category",
+    "cap": "Fresh",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
+  },
+  "5": {
+    "title": "Professional tools, testing & more",
+    "cap": "Cleaning supplies",
+    "img": "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/1._SY116_CB643952439_.jpg"
+  }
+}
