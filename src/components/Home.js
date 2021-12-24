@@ -1,12 +1,48 @@
 import "./Home.scss";
 import GridItem from "./GridItem";
 import GridItems from "../GridItems.json";
+import SliderImg from "../SliderImg";
+import { useState } from "react";
 
 function Home() {
+  const [currImgIndex, setcurrImgIndex] = useState(0);
+
+  const DecIndex = () => {
+    setcurrImgIndex(
+      currImgIndex <= 0 ? SliderImg.length - 1 : currImgIndex - 1
+    );
+  };
+
+  const IncIndex = () => {
+    setcurrImgIndex(
+      currImgIndex >= SliderImg.length - 1 ? 0 : currImgIndex + 1
+    );
+  };
+
   return (
     <div className="home">
       <div className="home__slideshow">
-        <img src="https://m.media-amazon.com/images/I/51baiMblc8L._SX3000_.jpg" />
+        <i
+          className={
+            currImgIndex === 2
+              ? "fas fa-chevron-left white"
+              : "fas fa-chevron-left"
+          }
+          onClick={DecIndex}
+        ></i>
+        <i
+          className={
+            currImgIndex === 2
+              ? "fas fa-chevron-right white"
+              : "fas fa-chevron-right"
+          }
+          onClick={IncIndex}
+        ></i>
+        {SliderImg.map((img, index) => {
+          return (
+            <div key={index}>{index === currImgIndex && <img src={img} />}</div>
+          );
+        })}
       </div>
 
       <div className="home__allContent">
