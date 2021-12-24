@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import BlackScreen from "./components/BlackScreen";
 import { useSelector } from "react-redux";
+// eslint-disable-next-line no-unused-vars
 import ActivateHamburger from "./Reducers/ActivateHamburger";
 
 function App() {

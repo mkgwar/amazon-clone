@@ -8,7 +8,7 @@ function HamburgerItem({ title, links }) {
       <div className="hamburger-item__links">
         {links.map((link, index) => {
           return (
-            <a href="#" key={index}>
+            <a href="https://www.amazon.in/" key={index}>
               {link}
             </a>
           );

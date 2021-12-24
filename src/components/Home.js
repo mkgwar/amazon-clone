@@ -90,7 +90,7 @@ function Home() {
               src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg"
               alt="Grid"
             />
-            <a href="#">See more</a>
+            <a href="https://www.amazon.in/">See more</a>
           </div>
         </div>
       </div>
