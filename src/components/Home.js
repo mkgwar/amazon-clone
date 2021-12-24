@@ -38,11 +38,7 @@ function Home() {
           }
           onClick={IncIndex}
         ></i>
-        {SliderImg.map((img, index) => {
-          return (
-            <div key={index}>{index === currImgIndex && <img src={img} />}</div>
-          );
-        })}
+        <img src={SliderImg[currImgIndex]} />
       </div>
 
       <div className="home__allContent">

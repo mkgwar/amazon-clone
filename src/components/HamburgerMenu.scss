@@ -1,0 +1,34 @@
+.hamburger-menu {
+  width: 350px;
+  height: 100vh;
+  z-index: 200;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgb(245, 245, 245);
+  transform: translateX(-100%);
+
+  &__overflowContainer {
+    height: inherit;
+    overflow-y: scroll;
+  }
+
+  &__bottomPadding {
+    height: 5rem;
+  }
+
+  &__header {
+    background-color: rgb(15, 17, 48);
+    padding: 0.75rem 2rem;
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .fa-user-circle {
+    color: #fff;
+    margin-right: 0.5rem;
+  }
+}

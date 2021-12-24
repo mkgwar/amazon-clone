@@ -1,0 +1,25 @@
+.hamburger-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  &__title {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+  }
+  &__links {
+    margin-top: 0.5rem;
+    a {
+      font-size: 0.75rem;
+      display: block;
+      color: rgb(25, 25, 25);
+      text-decoration: none;
+      width: 100%;
+      padding: 0.5rem 0px 0.5rem 2rem;
+      margin-bottom: 0.3rem;
+
+      &:hover {
+        background-color: rgb(225, 225, 225);
+      }
+    }
+  }
+}
