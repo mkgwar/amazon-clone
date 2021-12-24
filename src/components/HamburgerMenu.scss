@@ -1,12 +1,17 @@
 .hamburger-menu {
-  width: 350px;
+  width: 20%;
   height: 100vh;
-  z-index: 200;
+  z-index: 50;
   position: absolute;
   left: 0;
   top: 0;
   background-color: rgb(245, 245, 245);
   transform: translateX(-100%);
+  transition: transform 0.3s ease;
+
+  &.active {
+    transform: translateX(0);
+  }
 
   &__overflowContainer {
     height: inherit;

@@ -38,7 +38,7 @@ function Home() {
           }
           onClick={IncIndex}
         ></i>
-        <img src={SliderImg[currImgIndex]} />
+        <img src={SliderImg[currImgIndex]} alt="Slider" />
       </div>
 
       <div className="home__allContent">
@@ -86,7 +86,10 @@ function Home() {
 
           <div className="credit-card">
             <span className="title">Pay your credit card bills on Amazon</span>
-            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg" />
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg"
+              alt="Grid"
+            />
             <a href="#">See more</a>
           </div>
         </div>

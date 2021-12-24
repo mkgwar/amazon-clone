@@ -1,9 +1,17 @@
 import "./Menu.scss";
+import { HamburgerToggle } from "../Actions/ActionsIndex";
+import { useDispatch } from "react-redux";
 
 function Menu() {
+  const dispatch = useDispatch();
+
+  const ToggleHamburger = () => {
+    dispatch(HamburgerToggle());
+  };
+
   return (
     <div className="menu">
-      <span className="menu__item menu__hamburger">
+      <span className="menu__item menu__hamburger" onClick={ToggleHamburger}>
         <i className="fas fa-bars"></i>
         <span>All</span>
       </span>

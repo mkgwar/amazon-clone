@@ -7,19 +7,19 @@ function GridItem({ title, cap, img }) {
 
       <div className="gridItem__container">
         <div className="gridItem__item">
-          <img src={img} />
+          <img src={img} alt="Grid" />
           {cap}
         </div>
         <div className="gridItem__item">
-          <img src={img} />
+          <img src={img} alt="Grid" />
           {cap}
         </div>
         <div className="gridItem__item">
-          <img src={img} />
+          <img src={img} alt="Grid" />
           {cap}
         </div>
         <div className="gridItem__item">
-          <img src={img} />
+          <img src={img} alt="Grid" />
           {cap}
         </div>
       </div>
