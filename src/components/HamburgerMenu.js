@@ -2,6 +2,7 @@ import "./HamburgerMenu.scss";
 import { HamburgerItems } from "../HamburgerItems";
 import HamburgerItem from "./HamburgerItem";
 import { useSelector } from "react-redux";
+// eslint-disable-next-line no-unused-vars
 import ActivateHamburger from "../Reducers/ActivateHamburger";
 
 function HamburgerMenu() {

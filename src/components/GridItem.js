@@ -24,7 +24,7 @@ function GridItem({ title, cap, img }) {
         </div>
       </div>
 
-      <a href="#">See more</a>
+      <a href="https://www.amazon.in/">See more</a>
     </div>
   );
 }
