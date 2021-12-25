@@ -1,8 +1,6 @@
 import "./BlackScreen.scss";
 import { HamburgerToggle } from "../Actions/ActionsIndex";
 import { useDispatch, useSelector } from "react-redux";
-// eslint-disable-next-line no-unused-vars
-import ActivateHamburger from "../Reducers/ActivateHamburger";
 
 function BlackScreen() {
   const dispatch = useDispatch();
