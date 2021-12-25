@@ -1,3 +1,5 @@
+import { HAMBURGER_TOGGLE } from "./ActionTypes";
+
 export const HamburgerToggle = () => {
-  return { type: "HAMBURGER_TOGGLE" };
+  return { type: HAMBURGER_TOGGLE };
 };
